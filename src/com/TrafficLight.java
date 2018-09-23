@@ -26,7 +26,7 @@ class TrafficLight {
     public void launch() {
         try {
             for (Light light : lights) {
-                System.out.println("Горит " + light.getColour() + " свет");
+                System.out.println("Горит " + light.getColour() + " свет!");
                 Thread.sleep(light.getTime());
             }
         } catch (InterruptedException e) {
